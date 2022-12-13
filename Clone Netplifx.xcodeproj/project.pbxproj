@@ -3,27 +3,62 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24BB46D42940552E006ADAF8 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BB46D32940552E006ADAF8 /* SearchResultsViewController.swift */; };
+		24D10D822947319B00B5D982 /* NetplixCloneModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 24D10D802947319B00B5D982 /* NetplixCloneModel.xcdatamodeld */; };
+		24D10D84294735E400B5D982 /* DataPersistanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D10D83294735E400B5D982 /* DataPersistanceManager.swift */; };
+		24D2C2A7293F99AA00BEB1C1 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D2C2A6293F99AA00BEB1C1 /* TitleTableViewCell.swift */; };
+		24D2C2A9293F9CDE00BEB1C1 /* TitleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D2C2A8293F9CDE00BEB1C1 /* TitleViewModel.swift */; };
+		24F4FB1D293DE43500D2BF83 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F4FB1C293DE43500D2BF83 /* Extensions.swift */; };
+		24F4FB22293E438400D2BF83 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 24F4FB21293E438400D2BF83 /* SDWebImage */; };
+		24F4FB24293E438400D2BF83 /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 24F4FB23293E438400D2BF83 /* SDWebImageMapKit */; };
+		24F4FB26293E448600D2BF83 /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F4FB25293E448600D2BF83 /* TitleCollectionViewCell.swift */; };
+		FA34B0EE2941999A0094ACA1 /* YoutubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA34B0ED2941999A0094ACA1 /* YoutubeSearchResponse.swift */; };
+		FA34B0F02941BE940094ACA1 /* TitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA34B0EF2941BE940094ACA1 /* TitlePreviewViewController.swift */; };
+		FA34B0F22941CB790094ACA1 /* TitlePreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA34B0F12941CB790094ACA1 /* TitlePreviewViewModel.swift */; };
 		FACAE11D2939B8E200991826 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAE11C2939B8E200991826 /* AppDelegate.swift */; };
 		FACAE11F2939B8E200991826 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAE11E2939B8E200991826 /* SceneDelegate.swift */; };
-		FACAE1212939B8E200991826 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAE1202939B8E200991826 /* ViewController.swift */; };
-		FACAE1242939B8E200991826 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACAE1222939B8E200991826 /* Main.storyboard */; };
+		FACAE1212939B8E200991826 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAE1202939B8E200991826 /* MainTabBarViewController.swift */; };
 		FACAE1262939B8E300991826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACAE1252939B8E300991826 /* Assets.xcassets */; };
-		FACAE1292939B8E300991826 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACAE1272939B8E300991826 /* LaunchScreen.storyboard */; };
+		FACAE1312939BA0D00991826 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAE1302939BA0D00991826 /* HomeViewController.swift */; };
+		FACAE1332939BA2500991826 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAE1322939BA2500991826 /* SearchViewController.swift */; };
+		FACAE1352939BA2E00991826 /* DownloadsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAE1342939BA2E00991826 /* DownloadsViewController.swift */; };
+		FACAE1382939BAE400991826 /* UpcomingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAE1372939BAE400991826 /* UpcomingViewController.swift */; };
+		FACAE13F2939C67000991826 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAE13E2939C67000991826 /* CollectionViewTableViewCell.swift */; };
+		FACAE141293A18B400991826 /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAE140293A18B400991826 /* HeroHeaderUIView.swift */; };
+		FACAE143293C8C0300991826 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAE142293C8C0300991826 /* APICaller.swift */; };
+		FACAE145293C92BD00991826 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACAE144293C92BD00991826 /* Title.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		24BB46D32940552E006ADAF8 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		24D10D812947319B00B5D982 /* NetplixCloneModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NetplixCloneModel.xcdatamodel; sourceTree = "<group>"; };
+		24D10D83294735E400B5D982 /* DataPersistanceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPersistanceManager.swift; sourceTree = "<group>"; };
+		24D2C2A6293F99AA00BEB1C1 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		24D2C2A8293F9CDE00BEB1C1 /* TitleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleViewModel.swift; sourceTree = "<group>"; };
+		24F4FB1C293DE43500D2BF83 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		24F4FB25293E448600D2BF83 /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
+		FA34B0ED2941999A0094ACA1 /* YoutubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeSearchResponse.swift; sourceTree = "<group>"; };
+		FA34B0EF2941BE940094ACA1 /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
+		FA34B0F12941CB790094ACA1 /* TitlePreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewModel.swift; sourceTree = "<group>"; };
 		FACAE1192939B8E200991826 /* Clone Netplifx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clone Netplifx.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACAE11C2939B8E200991826 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FACAE11E2939B8E200991826 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FACAE1202939B8E200991826 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FACAE1232939B8E200991826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FACAE1202939B8E200991826 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		FACAE1252939B8E300991826 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FACAE1282939B8E300991826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FACAE12A2939B8E300991826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACAE1302939BA0D00991826 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FACAE1322939BA2500991826 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		FACAE1342939BA2E00991826 /* DownloadsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsViewController.swift; sourceTree = "<group>"; };
+		FACAE1372939BAE400991826 /* UpcomingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingViewController.swift; sourceTree = "<group>"; };
+		FACAE13E2939C67000991826 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		FACAE140293A18B400991826 /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
+		FACAE142293C8C0300991826 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		FACAE144293C92BD00991826 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +66,34 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24F4FB24293E438400D2BF83 /* SDWebImageMapKit in Frameworks */,
+				24F4FB22293E438400D2BF83 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24BB46D1294054FF006ADAF8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				FACAE1302939BA0D00991826 /* HomeViewController.swift */,
+				FACAE1372939BAE400991826 /* UpcomingViewController.swift */,
+				FACAE1322939BA2500991826 /* SearchViewController.swift */,
+				FACAE1342939BA2E00991826 /* DownloadsViewController.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		24BB46D229405508006ADAF8 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				24BB46D32940552E006ADAF8 /* SearchResultsViewController.swift */,
+				FA34B0EF2941BE940094ACA1 /* TitlePreviewViewController.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
 		FACAE1102939B8E200991826 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +113,76 @@
 		FACAE11B2939B8E200991826 /* Clone Netplifx */ = {
 			isa = PBXGroup;
 			children = (
-				FACAE11C2939B8E200991826 /* AppDelegate.swift */,
-				FACAE11E2939B8E200991826 /* SceneDelegate.swift */,
-				FACAE1202939B8E200991826 /* ViewController.swift */,
-				FACAE1222939B8E200991826 /* Main.storyboard */,
+				FACAE13D2939C5C400991826 /* Managers */,
+				FACAE13C2939C5B500991826 /* Resources */,
+				FACAE1392939C56B00991826 /* Models */,
+				FACAE13B2939C57C00991826 /* Views */,
+				FACAE13A2939C57400991826 /* ViewModels */,
+				FACAE1362939BA3700991826 /* Controllers */,
+				FACAE1202939B8E200991826 /* MainTabBarViewController.swift */,
 				FACAE1252939B8E300991826 /* Assets.xcassets */,
 				FACAE1272939B8E300991826 /* LaunchScreen.storyboard */,
 				FACAE12A2939B8E300991826 /* Info.plist */,
+				24D10D802947319B00B5D982 /* NetplixCloneModel.xcdatamodeld */,
 			);
 			path = "Clone Netplifx";
+			sourceTree = "<group>";
+		};
+		FACAE1362939BA3700991826 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				24BB46D229405508006ADAF8 /* General */,
+				24BB46D1294054FF006ADAF8 /* Core */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FACAE1392939C56B00991826 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FACAE144293C92BD00991826 /* Title.swift */,
+				FA34B0ED2941999A0094ACA1 /* YoutubeSearchResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FACAE13A2939C57400991826 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				24D2C2A8293F9CDE00BEB1C1 /* TitleViewModel.swift */,
+				FA34B0F12941CB790094ACA1 /* TitlePreviewViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FACAE13B2939C57C00991826 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FACAE13E2939C67000991826 /* CollectionViewTableViewCell.swift */,
+				FACAE140293A18B400991826 /* HeroHeaderUIView.swift */,
+				24F4FB25293E448600D2BF83 /* TitleCollectionViewCell.swift */,
+				24D2C2A6293F99AA00BEB1C1 /* TitleTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FACAE13C2939C5B500991826 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				24F4FB1C293DE43500D2BF83 /* Extensions.swift */,
+				FACAE11C2939B8E200991826 /* AppDelegate.swift */,
+				FACAE11E2939B8E200991826 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FACAE13D2939C5C400991826 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				FACAE142293C8C0300991826 /* APICaller.swift */,
+				24D10D83294735E400B5D982 /* DataPersistanceManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +201,10 @@
 			dependencies = (
 			);
 			name = "Clone Netplifx";
+			packageProductDependencies = (
+				24F4FB21293E438400D2BF83 /* SDWebImage */,
+				24F4FB23293E438400D2BF83 /* SDWebImageMapKit */,
+			);
 			productName = "Clone Netplifx";
 			productReference = FACAE1192939B8E200991826 /* Clone Netplifx.app */;
 			productType = "com.apple.product-type.application";
@@ -93,7 +215,6 @@
 		FACAE1112939B8E200991826 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1410;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
@@ -103,7 +224,7 @@
 				};
 			};
 			buildConfigurationList = FACAE1142939B8E200991826 /* Build configuration list for PBXProject "Clone Netplifx" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -111,6 +232,9 @@
 				Base,
 			);
 			mainGroup = FACAE1102939B8E200991826;
+			packageReferences = (
+				24F4FB20293E438400D2BF83 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = FACAE11A2939B8E200991826 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +249,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FACAE1292939B8E300991826 /* LaunchScreen.storyboard in Resources */,
 				FACAE1262939B8E300991826 /* Assets.xcassets in Resources */,
-				FACAE1242939B8E200991826 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +260,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FACAE1212939B8E200991826 /* ViewController.swift in Sources */,
+				FA34B0F22941CB790094ACA1 /* TitlePreviewViewModel.swift in Sources */,
+				24D2C2A7293F99AA00BEB1C1 /* TitleTableViewCell.swift in Sources */,
+				FACAE1332939BA2500991826 /* SearchViewController.swift in Sources */,
+				24F4FB26293E448600D2BF83 /* TitleCollectionViewCell.swift in Sources */,
+				FACAE145293C92BD00991826 /* Title.swift in Sources */,
+				FACAE1212939B8E200991826 /* MainTabBarViewController.swift in Sources */,
+				FACAE13F2939C67000991826 /* CollectionViewTableViewCell.swift in Sources */,
+				FACAE143293C8C0300991826 /* APICaller.swift in Sources */,
+				FACAE141293A18B400991826 /* HeroHeaderUIView.swift in Sources */,
+				FACAE1352939BA2E00991826 /* DownloadsViewController.swift in Sources */,
+				24BB46D42940552E006ADAF8 /* SearchResultsViewController.swift in Sources */,
+				24F4FB1D293DE43500D2BF83 /* Extensions.swift in Sources */,
+				24D10D84294735E400B5D982 /* DataPersistanceManager.swift in Sources */,
+				24D10D822947319B00B5D982 /* NetplixCloneModel.xcdatamodeld in Sources */,
+				FA34B0EE2941999A0094ACA1 /* YoutubeSearchResponse.swift in Sources */,
 				FACAE11D2939B8E200991826 /* AppDelegate.swift in Sources */,
 				FACAE11F2939B8E200991826 /* SceneDelegate.swift in Sources */,
+				FA34B0F02941BE940094ACA1 /* TitlePreviewViewController.swift in Sources */,
+				FACAE1382939BAE400991826 /* UpcomingViewController.swift in Sources */,
+				FACAE1312939BA0D00991826 /* HomeViewController.swift in Sources */,
+				24D2C2A9293F9CDE00BEB1C1 /* TitleViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FACAE1222939B8E200991826 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FACAE1232939B8E200991826 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FACAE1272939B8E300991826 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -216,7 +348,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +402,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -292,7 +424,6 @@
 				INFOPLIST_FILE = "Clone Netplifx/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +451,6 @@
 				INFOPLIST_FILE = "Clone Netplifx/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +488,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		24F4FB20293E438400D2BF83 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		24F4FB21293E438400D2BF83 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 24F4FB20293E438400D2BF83 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		24F4FB23293E438400D2BF83 /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 24F4FB20293E438400D2BF83 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		24D10D802947319B00B5D982 /* NetplixCloneModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				24D10D812947319B00B5D982 /* NetplixCloneModel.xcdatamodel */,
+			);
+			currentVersion = 24D10D812947319B00B5D982 /* NetplixCloneModel.xcdatamodel */;
+			path = NetplixCloneModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = FACAE1112939B8E200991826 /* Project object */;
 }

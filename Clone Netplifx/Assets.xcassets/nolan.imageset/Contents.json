@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "75217_poster-jujur-film-dunkirk.jpeg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "75217_poster-jujur-film-dunkirk@2x.jpeg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "75217_poster-jujur-film-dunkirk@3x.jpeg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
